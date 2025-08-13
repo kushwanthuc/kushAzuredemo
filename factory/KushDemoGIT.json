@@ -1,0 +1,9 @@
+{
+	"name": "KushDemoGIT",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "76146c55-b590-433f-9713-b517d87f6c99",
+		"tenantId": "d52c9ea1-7c21-47b1-82a3-33a74b1f74b8"
+	}
+}
