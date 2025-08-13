@@ -1,0 +1,41 @@
+{
+	"name": "git",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "GitLinkedservice",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "employee (1).csv",
+				"folderPath": "InputFolder2",
+				"container": "newcontainerrevision2"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "empid",
+				"type": "String"
+			},
+			{
+				"name": "name",
+				"type": "String"
+			},
+			{
+				"name": "salary",
+				"type": "String"
+			},
+			{
+				"name": " department",
+				"type": "String"
+			}
+		]
+	}
+}
