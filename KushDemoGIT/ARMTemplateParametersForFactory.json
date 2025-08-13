@@ -4,6 +4,9 @@
 	"parameters": {
 		"factoryName": {
 			"value": "KushDemoGIT"
+		},
+		"GitLinkedservice_connectionString": {
+			"value": ""
 		}
 	}
 }
